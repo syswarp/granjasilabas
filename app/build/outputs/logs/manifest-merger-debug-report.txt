@@ -35,6 +35,7 @@ MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.6.1] /Users/mac/.gradle/ca
 MERGED from [androidx.lifecycle:lifecycle-runtime:2.6.1] /Users/mac/.gradle/caches/transforms-3/be581f5dd84657287804e5ea599822e9/transformed/lifecycle-runtime-2.6.1/AndroidManifest.xml:2:1-7:12
 MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.6.1] /Users/mac/.gradle/caches/transforms-3/afc5cf301083b0aa0a66ce2c3cd0114e/transformed/jetified-lifecycle-viewmodel-savedstate-2.6.1/AndroidManifest.xml:17:1-22:12
 MERGED from [nl.dionsegijn:konfetti-xml:2.0.4] /Users/mac/.gradle/caches/transforms-3/39d77f8c26511358b700ff9dbed6efb3/transformed/jetified-konfetti-xml-2.0.4/AndroidManifest.xml:2:1-7:12
+MERGED from [com.google.android.flexbox:flexbox:3.0.0] /Users/mac/.gradle/caches/transforms-3/2428e64bafb6b9f55686df408f548fb2/transformed/jetified-flexbox-3.0.0/AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/mac/.gradle/caches/transforms-3/102870a08a726fe1ddb060b48a86275b/transformed/cursoradapter-1.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.cardview:cardview:1.0.0] /Users/mac/.gradle/caches/transforms-3/6e76fdb5c215e7c85e60b13ecf877893/transformed/cardview-1.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/mac/.gradle/caches/transforms-3/abb3d49831a53a4bfe25954f298cd4d3/transformed/interpolator-1.0.0/AndroidManifest.xml:17:1-22:12
@@ -86,9 +87,9 @@ MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/mac/.gradle/caches/t
 	android:label
 		ADDED from /Volumes/Datos/datos/granjasilabas/app/src/main/AndroidManifest.xml:7:9-41
 	android:roundIcon
-		ADDED from /Volumes/Datos/datos/granjasilabas/app/src/main/AndroidManifest.xml:8:9-54
+		ADDED from /Volumes/Datos/datos/granjasilabas/app/src/main/AndroidManifest.xml:8:9-63
 	android:icon
-		ADDED from /Volumes/Datos/datos/granjasilabas/app/src/main/AndroidManifest.xml:6:9-43
+		ADDED from /Volumes/Datos/datos/granjasilabas/app/src/main/AndroidManifest.xml:6:9-58
 	android:allowBackup
 		ADDED from /Volumes/Datos/datos/granjasilabas/app/src/main/AndroidManifest.xml:5:9-35
 	android:theme
@@ -187,6 +188,8 @@ MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.6.1] /Users/mac
 MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.6.1] /Users/mac/.gradle/caches/transforms-3/afc5cf301083b0aa0a66ce2c3cd0114e/transformed/jetified-lifecycle-viewmodel-savedstate-2.6.1/AndroidManifest.xml:20:5-44
 MERGED from [nl.dionsegijn:konfetti-xml:2.0.4] /Users/mac/.gradle/caches/transforms-3/39d77f8c26511358b700ff9dbed6efb3/transformed/jetified-konfetti-xml-2.0.4/AndroidManifest.xml:5:5-44
 MERGED from [nl.dionsegijn:konfetti-xml:2.0.4] /Users/mac/.gradle/caches/transforms-3/39d77f8c26511358b700ff9dbed6efb3/transformed/jetified-konfetti-xml-2.0.4/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.flexbox:flexbox:3.0.0] /Users/mac/.gradle/caches/transforms-3/2428e64bafb6b9f55686df408f548fb2/transformed/jetified-flexbox-3.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.flexbox:flexbox:3.0.0] /Users/mac/.gradle/caches/transforms-3/2428e64bafb6b9f55686df408f548fb2/transformed/jetified-flexbox-3.0.0/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/mac/.gradle/caches/transforms-3/102870a08a726fe1ddb060b48a86275b/transformed/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/mac/.gradle/caches/transforms-3/102870a08a726fe1ddb060b48a86275b/transformed/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.cardview:cardview:1.0.0] /Users/mac/.gradle/caches/transforms-3/6e76fdb5c215e7c85e60b13ecf877893/transformed/cardview-1.0.0/AndroidManifest.xml:20:5-44

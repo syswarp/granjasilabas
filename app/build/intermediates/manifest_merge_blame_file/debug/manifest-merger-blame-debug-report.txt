@@ -27,12 +27,12 @@
 19-->[androidx.core:core:1.12.0] /Users/mac/.gradle/caches/transforms-3/83c3abf2779746bcacd076bcea1d5914/transformed/core-1.12.0/AndroidManifest.xml:28:18-86
 20        android:debuggable="true"
 21        android:extractNativeLibs="false"
-22        android:icon="@mipmap/ic_launcher"
-22-->/Volumes/Datos/datos/granjasilabas/app/src/main/AndroidManifest.xml:6:9-43
+22        android:icon="@android:drawable/sym_def_app_icon"
+22-->/Volumes/Datos/datos/granjasilabas/app/src/main/AndroidManifest.xml:6:9-58
 23        android:label="@string/app_name"
 23-->/Volumes/Datos/datos/granjasilabas/app/src/main/AndroidManifest.xml:7:9-41
-24        android:roundIcon="@mipmap/ic_launcher_round"
-24-->/Volumes/Datos/datos/granjasilabas/app/src/main/AndroidManifest.xml:8:9-54
+24        android:roundIcon="@android:drawable/sym_def_app_icon"
+24-->/Volumes/Datos/datos/granjasilabas/app/src/main/AndroidManifest.xml:8:9-63
 25        android:screenOrientation="portrait"
 25-->/Volumes/Datos/datos/granjasilabas/app/src/main/AndroidManifest.xml:11:9-45
 26        android:supportsRtl="true"

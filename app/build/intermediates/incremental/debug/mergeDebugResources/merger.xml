@@ -39,7 +39,106 @@
         <item name="cardBackgroundColor">@color/cardview_light_background</item>
     </style></file><file path="/Users/mac/.gradle/caches/transforms-3/6e76fdb5c215e7c85e60b13ecf877893/transformed/cardview-1.0.0/res/values-v23/values-v23.xml" qualifiers="v23"><style name="CardView" parent="Base.CardView">
         <item name="cardBackgroundColor">?android:attr/colorBackgroundFloating</item>
-    </style></file></source></dataSet><dataSet aapt-namespace="http://schemas.android.com/apk/res-auto" config="androidx.lifecycle:lifecycle-viewmodel-savedstate:2.6.1$Generated" generated="true" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="/Users/mac/.gradle/caches/transforms-3/afc5cf301083b0aa0a66ce2c3cd0114e/transformed/jetified-lifecycle-viewmodel-savedstate-2.6.1/res"/></dataSet><dataSet aapt-namespace="http://schemas.android.com/apk/res-auto" config="androidx.lifecycle:lifecycle-viewmodel-savedstate:2.6.1" from-dependency="true" generated-set="androidx.lifecycle:lifecycle-viewmodel-savedstate:2.6.1$Generated" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="/Users/mac/.gradle/caches/transforms-3/afc5cf301083b0aa0a66ce2c3cd0114e/transformed/jetified-lifecycle-viewmodel-savedstate-2.6.1/res"><file path="/Users/mac/.gradle/caches/transforms-3/afc5cf301083b0aa0a66ce2c3cd0114e/transformed/jetified-lifecycle-viewmodel-savedstate-2.6.1/res/values/values.xml" qualifiers=""/></source></dataSet><dataSet aapt-namespace="http://schemas.android.com/apk/res-auto" config="androidx.lifecycle:lifecycle-runtime:2.6.1$Generated" generated="true" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="/Users/mac/.gradle/caches/transforms-3/be581f5dd84657287804e5ea599822e9/transformed/lifecycle-runtime-2.6.1/res"/></dataSet><dataSet aapt-namespace="http://schemas.android.com/apk/res-auto" config="androidx.lifecycle:lifecycle-runtime:2.6.1" from-dependency="true" generated-set="androidx.lifecycle:lifecycle-runtime:2.6.1$Generated" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="/Users/mac/.gradle/caches/transforms-3/be581f5dd84657287804e5ea599822e9/transformed/lifecycle-runtime-2.6.1/res"><file path="/Users/mac/.gradle/caches/transforms-3/be581f5dd84657287804e5ea599822e9/transformed/lifecycle-runtime-2.6.1/res/values/values.xml" qualifiers=""><id name="view_tree_lifecycle_owner"/></file></source></dataSet><dataSet aapt-namespace="http://schemas.android.com/apk/res-auto" config="androidx.lifecycle:lifecycle-viewmodel:2.6.1$Generated" generated="true" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="/Users/mac/.gradle/caches/transforms-3/5dfb71e4559cdc59e2f101e5bceda6ca/transformed/lifecycle-viewmodel-2.6.1/res"/></dataSet><dataSet aapt-namespace="http://schemas.android.com/apk/res-auto" config="androidx.lifecycle:lifecycle-viewmodel:2.6.1" from-dependency="true" generated-set="androidx.lifecycle:lifecycle-viewmodel:2.6.1$Generated" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="/Users/mac/.gradle/caches/transforms-3/5dfb71e4559cdc59e2f101e5bceda6ca/transformed/lifecycle-viewmodel-2.6.1/res"><file path="/Users/mac/.gradle/caches/transforms-3/5dfb71e4559cdc59e2f101e5bceda6ca/transformed/lifecycle-viewmodel-2.6.1/res/values/values.xml" qualifiers=""><id name="view_tree_view_model_store_owner"/></file></source></dataSet><dataSet aapt-namespace="http://schemas.android.com/apk/res-auto" config="androidx.lifecycle:lifecycle-livedata:2.6.1$Generated" generated="true" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="/Users/mac/.gradle/caches/transforms-3/b74d08211b48f7f503209255e9ae3d51/transformed/lifecycle-livedata-2.6.1/res"/></dataSet><dataSet aapt-namespace="http://schemas.android.com/apk/res-auto" config="androidx.lifecycle:lifecycle-livedata:2.6.1" from-dependency="true" generated-set="androidx.lifecycle:lifecycle-livedata:2.6.1$Generated" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="/Users/mac/.gradle/caches/transforms-3/b74d08211b48f7f503209255e9ae3d51/transformed/lifecycle-livedata-2.6.1/res"><file path="/Users/mac/.gradle/caches/transforms-3/b74d08211b48f7f503209255e9ae3d51/transformed/lifecycle-livedata-2.6.1/res/values/values.xml" qualifiers=""/></source></dataSet><dataSet aapt-namespace="http://schemas.android.com/apk/res-auto" config="androidx.lifecycle:lifecycle-livedata-core:2.6.1$Generated" generated="true" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="/Users/mac/.gradle/caches/transforms-3/ffab19ea6ef046b4be1607859300574c/transformed/lifecycle-livedata-core-2.6.1/res"/></dataSet><dataSet aapt-namespace="http://schemas.android.com/apk/res-auto" config="androidx.lifecycle:lifecycle-livedata-core:2.6.1" from-dependency="true" generated-set="androidx.lifecycle:lifecycle-livedata-core:2.6.1$Generated" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="/Users/mac/.gradle/caches/transforms-3/ffab19ea6ef046b4be1607859300574c/transformed/lifecycle-livedata-core-2.6.1/res"><file path="/Users/mac/.gradle/caches/transforms-3/ffab19ea6ef046b4be1607859300574c/transformed/lifecycle-livedata-core-2.6.1/res/values/values.xml" qualifiers=""/></source></dataSet><dataSet aapt-namespace="http://schemas.android.com/apk/res-auto" config="androidx.lifecycle:lifecycle-process:2.6.1$Generated" generated="true" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="/Users/mac/.gradle/caches/transforms-3/294b1b6bf815b8f57f677a758f269eca/transformed/jetified-lifecycle-process-2.6.1/res"/></dataSet><dataSet aapt-namespace="http://schemas.android.com/apk/res-auto" config="androidx.lifecycle:lifecycle-process:2.6.1" from-dependency="true" generated-set="androidx.lifecycle:lifecycle-process:2.6.1$Generated" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="/Users/mac/.gradle/caches/transforms-3/294b1b6bf815b8f57f677a758f269eca/transformed/jetified-lifecycle-process-2.6.1/res"><file path="/Users/mac/.gradle/caches/transforms-3/294b1b6bf815b8f57f677a758f269eca/transformed/jetified-lifecycle-process-2.6.1/res/values/values.xml" qualifiers=""/></source></dataSet><dataSet aapt-namespace="http://schemas.android.com/apk/res-auto" config="androidx.savedstate:savedstate:1.2.1$Generated" generated="true" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="/Users/mac/.gradle/caches/transforms-3/e9c37687957c0035d49de74c00d02016/transformed/jetified-savedstate-1.2.1/res"/></dataSet><dataSet aapt-namespace="http://schemas.android.com/apk/res-auto" config="androidx.savedstate:savedstate:1.2.1" from-dependency="true" generated-set="androidx.savedstate:savedstate:1.2.1$Generated" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="/Users/mac/.gradle/caches/transforms-3/e9c37687957c0035d49de74c00d02016/transformed/jetified-savedstate-1.2.1/res"><file path="/Users/mac/.gradle/caches/transforms-3/e9c37687957c0035d49de74c00d02016/transformed/jetified-savedstate-1.2.1/res/values/values.xml" qualifiers=""><id name="view_tree_saved_state_registry_owner"/></file></source></dataSet><dataSet aapt-namespace="http://schemas.android.com/apk/res-auto" config="androidx.core:core:1.12.0$Generated" generated="true" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="/Users/mac/.gradle/caches/transforms-3/83c3abf2779746bcacd076bcea1d5914/transformed/core-1.12.0/res"/></dataSet><dataSet aapt-namespace="http://schemas.android.com/apk/res-auto" config="androidx.core:core:1.12.0" from-dependency="true" generated-set="androidx.core:core:1.12.0$Generated" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="/Users/mac/.gradle/caches/transforms-3/83c3abf2779746bcacd076bcea1d5914/transformed/core-1.12.0/res"><file path="/Users/mac/.gradle/caches/transforms-3/83c3abf2779746bcacd076bcea1d5914/transformed/core-1.12.0/res/values-v21/values-v21.xml" qualifiers="v21"><color name="notification_action_color_filter">@color/androidx_core_secondary_text_default_material_light</color><dimen name="notification_content_margin_start">0dp</dimen><dimen name="notification_main_column_padding_top">0dp</dimen><dimen name="notification_media_narrow_margin">12dp</dimen><style name="TextAppearance.Compat.Notification" parent="@android:style/TextAppearance.Material.Notification"/><style name="TextAppearance.Compat.Notification.Info" parent="@android:style/TextAppearance.Material.Notification.Info"/><style name="TextAppearance.Compat.Notification.Time" parent="@android:style/TextAppearance.Material.Notification.Time"/><style name="TextAppearance.Compat.Notification.Title" parent="@android:style/TextAppearance.Material.Notification.Title"/><style name="Widget.Compat.NotificationActionContainer" parent="">
+    </style></file></source></dataSet><dataSet aapt-namespace="http://schemas.android.com/apk/res-auto" config="com.google.android.flexbox:flexbox:3.0.0$Generated" generated="true" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="/Users/mac/.gradle/caches/transforms-3/2428e64bafb6b9f55686df408f548fb2/transformed/jetified-flexbox-3.0.0/res"/></dataSet><dataSet aapt-namespace="http://schemas.android.com/apk/res-auto" config="com.google.android.flexbox:flexbox:3.0.0" from-dependency="true" generated-set="com.google.android.flexbox:flexbox:3.0.0$Generated" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="/Users/mac/.gradle/caches/transforms-3/2428e64bafb6b9f55686df408f548fb2/transformed/jetified-flexbox-3.0.0/res"><file path="/Users/mac/.gradle/caches/transforms-3/2428e64bafb6b9f55686df408f548fb2/transformed/jetified-flexbox-3.0.0/res/values/values.xml" qualifiers=""><declare-styleable name="FlexboxLayout">
+        <attr name="flexDirection">
+            <enum name="row" value="0"/>
+            <enum name="row_reverse" value="1"/>
+            <enum name="column" value="2"/>
+            <enum name="column_reverse" value="3"/>
+        </attr>
+
+        <attr name="flexWrap">
+            <enum name="nowrap" value="0"/>
+            <enum name="wrap" value="1"/>
+            <enum name="wrap_reverse" value="2"/>
+        </attr>
+
+        
+
+        <attr name="justifyContent">
+            <enum name="flex_start" value="0"/>
+            <enum name="flex_end" value="1"/>
+            <enum name="center" value="2"/>
+            <enum name="space_between" value="3"/>
+            <enum name="space_around" value="4"/>
+            <enum name="space_evenly" value="5"/>
+        </attr>
+
+        <attr name="alignItems">
+            <enum name="flex_start" value="0"/>
+            <enum name="flex_end" value="1"/>
+            <enum name="center" value="2"/>
+            <enum name="baseline" value="3"/>
+            <enum name="stretch" value="4"/>
+        </attr>
+
+        <attr name="alignContent">
+            <enum name="flex_start" value="0"/>
+            <enum name="flex_end" value="1"/>
+            <enum name="center" value="2"/>
+            <enum name="space_between" value="3"/>
+            <enum name="space_around" value="4"/>
+            <enum name="stretch" value="5"/>
+        </attr>
+
+        <attr format="reference" name="dividerDrawable"/>
+        <attr format="reference" name="dividerDrawableHorizontal"/>
+        <attr format="reference" name="dividerDrawableVertical"/>
+
+        <attr name="showDivider">
+            <flag name="none" value="0"/>
+            <flag name="beginning" value="1"/>
+            <flag name="middle" value="2"/>
+            <flag name="end" value="4"/>
+        </attr>
+        <attr name="showDividerHorizontal">
+            <flag name="none" value="0"/>
+            <flag name="beginning" value="1"/>
+            <flag name="middle" value="2"/>
+            <flag name="end" value="4"/>
+        </attr>
+        <attr name="showDividerVertical">
+            <flag name="none" value="0"/>
+            <flag name="beginning" value="1"/>
+            <flag name="middle" value="2"/>
+            <flag name="end" value="4"/>
+        </attr>
+
+        
+        <attr format="integer" name="maxLine"/>
+
+    </declare-styleable><declare-styleable name="FlexboxLayout_Layout">
+        <attr format="integer" name="layout_order"/>
+
+        
+        <attr format="float" name="layout_flexGrow"/>
+
+        
+        <attr format="float" name="layout_flexShrink"/>
+
+        
+        <attr format="fraction" name="layout_flexBasisPercent"/>
+
+        
+
+        <attr name="layout_alignSelf">
+            <enum name="auto" value="-1"/>
+            
+            <enum name="flex_start" value="0"/>
+            <enum name="flex_end" value="1"/>
+            <enum name="center" value="2"/>
+            <enum name="baseline" value="3"/>
+            <enum name="stretch" value="4"/>
+        </attr>
+
+        <attr format="dimension" name="layout_minWidth"/>
+        <attr format="dimension" name="layout_minHeight"/>
+        <attr format="dimension" name="layout_maxWidth"/>
+        <attr format="dimension" name="layout_maxHeight"/>
+
+        
+        <attr format="boolean" name="layout_wrapBefore"/>
+    </declare-styleable></file></source></dataSet><dataSet aapt-namespace="http://schemas.android.com/apk/res-auto" config="androidx.lifecycle:lifecycle-viewmodel-savedstate:2.6.1$Generated" generated="true" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="/Users/mac/.gradle/caches/transforms-3/afc5cf301083b0aa0a66ce2c3cd0114e/transformed/jetified-lifecycle-viewmodel-savedstate-2.6.1/res"/></dataSet><dataSet aapt-namespace="http://schemas.android.com/apk/res-auto" config="androidx.lifecycle:lifecycle-viewmodel-savedstate:2.6.1" from-dependency="true" generated-set="androidx.lifecycle:lifecycle-viewmodel-savedstate:2.6.1$Generated" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="/Users/mac/.gradle/caches/transforms-3/afc5cf301083b0aa0a66ce2c3cd0114e/transformed/jetified-lifecycle-viewmodel-savedstate-2.6.1/res"><file path="/Users/mac/.gradle/caches/transforms-3/afc5cf301083b0aa0a66ce2c3cd0114e/transformed/jetified-lifecycle-viewmodel-savedstate-2.6.1/res/values/values.xml" qualifiers=""/></source></dataSet><dataSet aapt-namespace="http://schemas.android.com/apk/res-auto" config="androidx.lifecycle:lifecycle-runtime:2.6.1$Generated" generated="true" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="/Users/mac/.gradle/caches/transforms-3/be581f5dd84657287804e5ea599822e9/transformed/lifecycle-runtime-2.6.1/res"/></dataSet><dataSet aapt-namespace="http://schemas.android.com/apk/res-auto" config="androidx.lifecycle:lifecycle-runtime:2.6.1" from-dependency="true" generated-set="androidx.lifecycle:lifecycle-runtime:2.6.1$Generated" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="/Users/mac/.gradle/caches/transforms-3/be581f5dd84657287804e5ea599822e9/transformed/lifecycle-runtime-2.6.1/res"><file path="/Users/mac/.gradle/caches/transforms-3/be581f5dd84657287804e5ea599822e9/transformed/lifecycle-runtime-2.6.1/res/values/values.xml" qualifiers=""><id name="view_tree_lifecycle_owner"/></file></source></dataSet><dataSet aapt-namespace="http://schemas.android.com/apk/res-auto" config="androidx.lifecycle:lifecycle-viewmodel:2.6.1$Generated" generated="true" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="/Users/mac/.gradle/caches/transforms-3/5dfb71e4559cdc59e2f101e5bceda6ca/transformed/lifecycle-viewmodel-2.6.1/res"/></dataSet><dataSet aapt-namespace="http://schemas.android.com/apk/res-auto" config="androidx.lifecycle:lifecycle-viewmodel:2.6.1" from-dependency="true" generated-set="androidx.lifecycle:lifecycle-viewmodel:2.6.1$Generated" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="/Users/mac/.gradle/caches/transforms-3/5dfb71e4559cdc59e2f101e5bceda6ca/transformed/lifecycle-viewmodel-2.6.1/res"><file path="/Users/mac/.gradle/caches/transforms-3/5dfb71e4559cdc59e2f101e5bceda6ca/transformed/lifecycle-viewmodel-2.6.1/res/values/values.xml" qualifiers=""><id name="view_tree_view_model_store_owner"/></file></source></dataSet><dataSet aapt-namespace="http://schemas.android.com/apk/res-auto" config="androidx.lifecycle:lifecycle-livedata:2.6.1$Generated" generated="true" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="/Users/mac/.gradle/caches/transforms-3/b74d08211b48f7f503209255e9ae3d51/transformed/lifecycle-livedata-2.6.1/res"/></dataSet><dataSet aapt-namespace="http://schemas.android.com/apk/res-auto" config="androidx.lifecycle:lifecycle-livedata:2.6.1" from-dependency="true" generated-set="androidx.lifecycle:lifecycle-livedata:2.6.1$Generated" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="/Users/mac/.gradle/caches/transforms-3/b74d08211b48f7f503209255e9ae3d51/transformed/lifecycle-livedata-2.6.1/res"><file path="/Users/mac/.gradle/caches/transforms-3/b74d08211b48f7f503209255e9ae3d51/transformed/lifecycle-livedata-2.6.1/res/values/values.xml" qualifiers=""/></source></dataSet><dataSet aapt-namespace="http://schemas.android.com/apk/res-auto" config="androidx.lifecycle:lifecycle-livedata-core:2.6.1$Generated" generated="true" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="/Users/mac/.gradle/caches/transforms-3/ffab19ea6ef046b4be1607859300574c/transformed/lifecycle-livedata-core-2.6.1/res"/></dataSet><dataSet aapt-namespace="http://schemas.android.com/apk/res-auto" config="androidx.lifecycle:lifecycle-livedata-core:2.6.1" from-dependency="true" generated-set="androidx.lifecycle:lifecycle-livedata-core:2.6.1$Generated" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="/Users/mac/.gradle/caches/transforms-3/ffab19ea6ef046b4be1607859300574c/transformed/lifecycle-livedata-core-2.6.1/res"><file path="/Users/mac/.gradle/caches/transforms-3/ffab19ea6ef046b4be1607859300574c/transformed/lifecycle-livedata-core-2.6.1/res/values/values.xml" qualifiers=""/></source></dataSet><dataSet aapt-namespace="http://schemas.android.com/apk/res-auto" config="androidx.lifecycle:lifecycle-process:2.6.1$Generated" generated="true" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="/Users/mac/.gradle/caches/transforms-3/294b1b6bf815b8f57f677a758f269eca/transformed/jetified-lifecycle-process-2.6.1/res"/></dataSet><dataSet aapt-namespace="http://schemas.android.com/apk/res-auto" config="androidx.lifecycle:lifecycle-process:2.6.1" from-dependency="true" generated-set="androidx.lifecycle:lifecycle-process:2.6.1$Generated" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="/Users/mac/.gradle/caches/transforms-3/294b1b6bf815b8f57f677a758f269eca/transformed/jetified-lifecycle-process-2.6.1/res"><file path="/Users/mac/.gradle/caches/transforms-3/294b1b6bf815b8f57f677a758f269eca/transformed/jetified-lifecycle-process-2.6.1/res/values/values.xml" qualifiers=""/></source></dataSet><dataSet aapt-namespace="http://schemas.android.com/apk/res-auto" config="androidx.savedstate:savedstate:1.2.1$Generated" generated="true" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="/Users/mac/.gradle/caches/transforms-3/e9c37687957c0035d49de74c00d02016/transformed/jetified-savedstate-1.2.1/res"/></dataSet><dataSet aapt-namespace="http://schemas.android.com/apk/res-auto" config="androidx.savedstate:savedstate:1.2.1" from-dependency="true" generated-set="androidx.savedstate:savedstate:1.2.1$Generated" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="/Users/mac/.gradle/caches/transforms-3/e9c37687957c0035d49de74c00d02016/transformed/jetified-savedstate-1.2.1/res"><file path="/Users/mac/.gradle/caches/transforms-3/e9c37687957c0035d49de74c00d02016/transformed/jetified-savedstate-1.2.1/res/values/values.xml" qualifiers=""><id name="view_tree_saved_state_registry_owner"/></file></source></dataSet><dataSet aapt-namespace="http://schemas.android.com/apk/res-auto" config="androidx.core:core:1.12.0$Generated" generated="true" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="/Users/mac/.gradle/caches/transforms-3/83c3abf2779746bcacd076bcea1d5914/transformed/core-1.12.0/res"/></dataSet><dataSet aapt-namespace="http://schemas.android.com/apk/res-auto" config="androidx.core:core:1.12.0" from-dependency="true" generated-set="androidx.core:core:1.12.0$Generated" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="/Users/mac/.gradle/caches/transforms-3/83c3abf2779746bcacd076bcea1d5914/transformed/core-1.12.0/res"><file path="/Users/mac/.gradle/caches/transforms-3/83c3abf2779746bcacd076bcea1d5914/transformed/core-1.12.0/res/values-v21/values-v21.xml" qualifiers="v21"><color name="notification_action_color_filter">@color/androidx_core_secondary_text_default_material_light</color><dimen name="notification_content_margin_start">0dp</dimen><dimen name="notification_main_column_padding_top">0dp</dimen><dimen name="notification_media_narrow_margin">12dp</dimen><style name="TextAppearance.Compat.Notification" parent="@android:style/TextAppearance.Material.Notification"/><style name="TextAppearance.Compat.Notification.Info" parent="@android:style/TextAppearance.Material.Notification.Info"/><style name="TextAppearance.Compat.Notification.Time" parent="@android:style/TextAppearance.Material.Notification.Time"/><style name="TextAppearance.Compat.Notification.Title" parent="@android:style/TextAppearance.Material.Notification.Title"/><style name="Widget.Compat.NotificationActionContainer" parent="">
         <item name="android:background">@drawable/notification_action_background</item>
     </style><style name="Widget.Compat.NotificationActionText" parent="">
         <item name="android:textAppearance">?android:attr/textAppearanceButton</item>
@@ -12961,7 +13060,38 @@
     <attr format="reference" name="checkedButton"/>
     
     <attr name="android:enabled"/>
-  </declare-styleable><declare-styleable name="AppBarLayoutStates">
+  </declare-styleable><declare-styleable name="FlexboxLayout_Layout">
+        <attr format="integer" name="layout_order"/>
+
+        
+        <attr format="float" name="layout_flexGrow"/>
+
+        
+        <attr format="float" name="layout_flexShrink"/>
+
+        
+        <attr format="fraction" name="layout_flexBasisPercent"/>
+
+        
+
+        <attr name="layout_alignSelf">
+            <enum name="auto" value="-1"/>
+            
+            <enum name="flex_start" value="0"/>
+            <enum name="flex_end" value="1"/>
+            <enum name="center" value="2"/>
+            <enum name="baseline" value="3"/>
+            <enum name="stretch" value="4"/>
+        </attr>
+
+        <attr format="dimension" name="layout_minWidth"/>
+        <attr format="dimension" name="layout_minHeight"/>
+        <attr format="dimension" name="layout_maxWidth"/>
+        <attr format="dimension" name="layout_maxHeight"/>
+
+        
+        <attr format="boolean" name="layout_wrapBefore"/>
+    </declare-styleable><declare-styleable name="AppBarLayoutStates">
     
     <attr format="boolean" name="state_collapsed"/>
     
@@ -14517,6 +14647,74 @@
         <attr name="layout_editor_absoluteY"/>
         <attr name="layout_constraintTag"/>
         <attr name="layout_wrapBehaviorInParent"/>
+    </declare-styleable><declare-styleable name="FlexboxLayout">
+        <attr name="flexDirection">
+            <enum name="row" value="0"/>
+            <enum name="row_reverse" value="1"/>
+            <enum name="column" value="2"/>
+            <enum name="column_reverse" value="3"/>
+        </attr>
+
+        <attr name="flexWrap">
+            <enum name="nowrap" value="0"/>
+            <enum name="wrap" value="1"/>
+            <enum name="wrap_reverse" value="2"/>
+        </attr>
+
+        
+
+        <attr name="justifyContent">
+            <enum name="flex_start" value="0"/>
+            <enum name="flex_end" value="1"/>
+            <enum name="center" value="2"/>
+            <enum name="space_between" value="3"/>
+            <enum name="space_around" value="4"/>
+            <enum name="space_evenly" value="5"/>
+        </attr>
+
+        <attr name="alignItems">
+            <enum name="flex_start" value="0"/>
+            <enum name="flex_end" value="1"/>
+            <enum name="center" value="2"/>
+            <enum name="baseline" value="3"/>
+            <enum name="stretch" value="4"/>
+        </attr>
+
+        <attr name="alignContent">
+            <enum name="flex_start" value="0"/>
+            <enum name="flex_end" value="1"/>
+            <enum name="center" value="2"/>
+            <enum name="space_between" value="3"/>
+            <enum name="space_around" value="4"/>
+            <enum name="stretch" value="5"/>
+        </attr>
+
+        <attr format="reference" name="dividerDrawable"/>
+        <attr format="reference" name="dividerDrawableHorizontal"/>
+        <attr format="reference" name="dividerDrawableVertical"/>
+
+        <attr name="showDivider">
+            <flag name="none" value="0"/>
+            <flag name="beginning" value="1"/>
+            <flag name="middle" value="2"/>
+            <flag name="end" value="4"/>
+        </attr>
+        <attr name="showDividerHorizontal">
+            <flag name="none" value="0"/>
+            <flag name="beginning" value="1"/>
+            <flag name="middle" value="2"/>
+            <flag name="end" value="4"/>
+        </attr>
+        <attr name="showDividerVertical">
+            <flag name="none" value="0"/>
+            <flag name="beginning" value="1"/>
+            <flag name="middle" value="2"/>
+            <flag name="end" value="4"/>
+        </attr>
+
+        
+        <attr format="integer" name="maxLine"/>
+
     </declare-styleable><declare-styleable name="TabItem">
     
     <attr name="android:text"/>

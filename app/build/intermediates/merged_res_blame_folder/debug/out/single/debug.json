@@ -1,46 +1,54 @@
 [
     {
-        "merged": "com.granjasilabas.app-merged_res-31:/drawable_bg_pool.xml.flat",
-        "source": "com.granjasilabas.app-main-33:/drawable/bg_pool.xml"
+        "merged": "/Users/mac/.gradle/daemon/8.1.1/com.granjasilabas.app-merged_res-32:/drawable_bg_celebrate.xml.flat",
+        "source": "/Users/mac/.gradle/daemon/8.1.1/com.granjasilabas.app-main-34:/drawable/bg_celebrate.xml"
     },
     {
-        "merged": "com.granjasilabas.app-merged_res-31:/drawable_bg_celebrate.xml.flat",
-        "source": "com.granjasilabas.app-main-33:/drawable/bg_celebrate.xml"
+        "merged": "com.granjasilabas.app-merged_res-32:/drawable_bg_slot.xml.flat",
+        "source": "com.granjasilabas.app-main-34:/drawable/bg_slot.xml"
     },
     {
-        "merged": "com.granjasilabas.app-merged_res-31:/drawable_bg_chip.xml.flat",
-        "source": "com.granjasilabas.app-main-33:/drawable/bg_chip.xml"
+        "merged": "/Users/mac/.gradle/daemon/8.1.1/com.granjasilabas.app-merged_res-32:/anim_bounce.xml.flat",
+        "source": "/Users/mac/.gradle/daemon/8.1.1/com.granjasilabas.app-main-34:/anim/bounce.xml"
     },
     {
-        "merged": "com.granjasilabas.app-merged_res-31:/drawable_bg_slot.xml.flat",
-        "source": "com.granjasilabas.app-main-33:/drawable/bg_slot.xml"
+        "merged": "/Users/mac/.gradle/daemon/8.1.1/com.granjasilabas.app-merged_res-32:/layout_activity_splash.xml.flat",
+        "source": "/Users/mac/.gradle/daemon/8.1.1/com.granjasilabas.app-main-34:/layout/activity_splash.xml"
     },
     {
-        "merged": "com.granjasilabas.app-merged_res-31:/layout_activity_splash.xml.flat",
-        "source": "com.granjasilabas.app-main-33:/layout/activity_splash.xml"
+        "merged": "/Users/mac/.gradle/daemon/8.1.1/com.granjasilabas.app-merged_res-32:/drawable_bg_slot.xml.flat",
+        "source": "/Users/mac/.gradle/daemon/8.1.1/com.granjasilabas.app-main-34:/drawable/bg_slot.xml"
     },
     {
-        "merged": "com.granjasilabas.app-merged_res-31:/drawable_bg_slot_over.xml.flat",
-        "source": "com.granjasilabas.app-main-33:/drawable/bg_slot_over.xml"
+        "merged": "/Users/mac/.gradle/daemon/8.1.1/com.granjasilabas.app-merged_res-32:/drawable_bg_btn_jugar.xml.flat",
+        "source": "/Users/mac/.gradle/daemon/8.1.1/com.granjasilabas.app-main-34:/drawable/bg_btn_jugar.xml"
     },
     {
-        "merged": "com.granjasilabas.app-merged_res-31:/drawable_bg_btn_jugar.xml.flat",
-        "source": "com.granjasilabas.app-main-33:/drawable/bg_btn_jugar.xml"
+        "merged": "/Users/mac/.gradle/daemon/8.1.1/com.granjasilabas.app-merged_res-32:/raw_win.wav.flat",
+        "source": "/Users/mac/.gradle/daemon/8.1.1/com.granjasilabas.app-main-34:/raw/win.wav"
     },
     {
-        "merged": "com.granjasilabas.app-merged_res-31:/raw_place.wav.flat",
-        "source": "com.granjasilabas.app-main-33:/raw/place.wav"
+        "merged": "/Users/mac/.gradle/daemon/8.1.1/com.granjasilabas.app-merged_res-32:/drawable_bg_slot_over.xml.flat",
+        "source": "/Users/mac/.gradle/daemon/8.1.1/com.granjasilabas.app-main-34:/drawable/bg_slot_over.xml"
     },
     {
-        "merged": "com.granjasilabas.app-merged_res-31:/layout_activity_game.xml.flat",
-        "source": "com.granjasilabas.app-main-33:/layout/activity_game.xml"
+        "merged": "/Users/mac/.gradle/daemon/8.1.1/com.granjasilabas.app-merged_res-32:/drawable_bg_chip.xml.flat",
+        "source": "/Users/mac/.gradle/daemon/8.1.1/com.granjasilabas.app-main-34:/drawable/bg_chip.xml"
     },
     {
-        "merged": "com.granjasilabas.app-merged_res-31:/anim_bounce.xml.flat",
-        "source": "com.granjasilabas.app-main-33:/anim/bounce.xml"
+        "merged": "/Users/mac/.gradle/daemon/8.1.1/com.granjasilabas.app-merged_res-32:/drawable_bg_pool.xml.flat",
+        "source": "/Users/mac/.gradle/daemon/8.1.1/com.granjasilabas.app-main-34:/drawable/bg_pool.xml"
     },
     {
-        "merged": "com.granjasilabas.app-merged_res-31:/raw_win.wav.flat",
-        "source": "com.granjasilabas.app-main-33:/raw/win.wav"
+        "merged": "com.granjasilabas.app-merged_res-32:/drawable_bg_slot_over.xml.flat",
+        "source": "com.granjasilabas.app-main-34:/drawable/bg_slot_over.xml"
+    },
+    {
+        "merged": "/Users/mac/.gradle/daemon/8.1.1/com.granjasilabas.app-merged_res-32:/raw_place.wav.flat",
+        "source": "/Users/mac/.gradle/daemon/8.1.1/com.granjasilabas.app-main-34:/raw/place.wav"
+    },
+    {
+        "merged": "/Users/mac/.gradle/daemon/8.1.1/com.granjasilabas.app-merged_res-32:/layout_activity_game.xml.flat",
+        "source": "/Users/mac/.gradle/daemon/8.1.1/com.granjasilabas.app-main-34:/layout/activity_game.xml"
     }
 ]

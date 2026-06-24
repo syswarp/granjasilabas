@@ -12,6 +12,7 @@ import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.viewbinding.ViewBinding;
 import androidx.viewbinding.ViewBindings;
+import com.google.android.flexbox.FlexboxLayout;
 import com.granjasilabas.app.R;
 import java.lang.NullPointerException;
 import java.lang.Override;
@@ -35,7 +36,7 @@ public final class ActivityGameBinding implements ViewBinding {
   public final FrameLayout layoutCelebrar;
 
   @NonNull
-  public final LinearLayout poolSilabas;
+  public final FlexboxLayout poolSilabas;
 
   @NonNull
   public final TextView tvAnimalEmoji;
@@ -48,7 +49,7 @@ public final class ActivityGameBinding implements ViewBinding {
 
   private ActivityGameBinding(@NonNull LinearLayout rootView, @NonNull Button btnSiguiente,
       @NonNull LinearLayout containerSlots, @NonNull KonfettiView konfettiView,
-      @NonNull FrameLayout layoutCelebrar, @NonNull LinearLayout poolSilabas,
+      @NonNull FrameLayout layoutCelebrar, @NonNull FlexboxLayout poolSilabas,
       @NonNull TextView tvAnimalEmoji, @NonNull TextView tvCapybara, @NonNull TextView tvProgreso) {
     this.rootView = rootView;
     this.btnSiguiente = btnSiguiente;
@@ -113,7 +114,7 @@ public final class ActivityGameBinding implements ViewBinding {
       }
 
       id = R.id.pool_silabas;
-      LinearLayout poolSilabas = ViewBindings.findChildViewById(rootView, id);
+      FlexboxLayout poolSilabas = ViewBindings.findChildViewById(rootView, id);
       if (poolSilabas == null) {
         break missingId;
       }

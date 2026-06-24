@@ -1,10 +1,10 @@
 [
     {
-        "merged": "com.granjasilabas.app-mergeDebugResources-30:/layout/activity_splash.xml",
-        "source": "com.granjasilabas.app-main-33:/layout/activity_splash.xml"
+        "merged": "com.granjasilabas.app-mergeDebugResources-31:/layout/activity_splash.xml",
+        "source": "com.granjasilabas.app-main-34:/layout/activity_splash.xml"
     },
     {
-        "merged": "com.granjasilabas.app-mergeDebugResources-30:/layout/activity_game.xml",
-        "source": "com.granjasilabas.app-main-33:/layout/activity_game.xml"
+        "merged": "com.granjasilabas.app-mergeDebugResources-31:/layout/activity_game.xml",
+        "source": "com.granjasilabas.app-main-34:/layout/activity_game.xml"
     }
 ]

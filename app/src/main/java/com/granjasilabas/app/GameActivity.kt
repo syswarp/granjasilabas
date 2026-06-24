@@ -7,20 +7,18 @@ import android.content.ClipDescription
 import android.graphics.Color
 import android.media.AudioAttributes
 import android.media.SoundPool
-import android.os.Build
 import android.os.Bundle
 import android.os.Handler
 import android.os.Looper
 import android.view.DragEvent
 import android.view.Gravity
-import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import android.widget.FrameLayout
-import android.widget.LinearLayout
 import android.widget.TextView
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.content.ContextCompat
+import com.google.android.flexbox.FlexboxLayout
 import com.granjasilabas.app.databinding.ActivityGameBinding
 import nl.dionsegijn.konfetti.core.Party
 import nl.dionsegijn.konfetti.core.Position
@@ -36,7 +34,6 @@ class GameActivity : AppCompatActivity() {
     private var draggedSyllable: String? = null
     private var draggedFromSlot: Int? = null
 
-    // SoundPool para efectos
     private lateinit var soundPool: SoundPool
     private var soundWin: Int = 0
     private var soundPlace: Int = 0
@@ -80,10 +77,12 @@ class GameActivity : AppCompatActivity() {
     }
 
     // ── POOL de sílabas ──────────────────────────────────────────────
+
     private fun buildPool(animal: Animal) {
         binding.poolSilabas.removeAllViews()
-        val shuffled = animal.silabas.shuffled()
-        shuffled.forEach { syl -> binding.poolSilabas.addView(makeChip(syl, fromSlot = null)) }
+        animal.silabas.shuffled().forEach { syl ->
+            binding.poolSilabas.addView(makeChip(syl, fromSlot = null))
+        }
     }
 
     private fun makeChip(syl: String, fromSlot: Int?): TextView {
@@ -97,7 +96,8 @@ class GameActivity : AppCompatActivity() {
             background = ContextCompat.getDrawable(context, R.drawable.bg_chip)
             tag = syl
 
-            val lp = LinearLayout.LayoutParams(
+            // FlexboxLayout.LayoutParams para que el pool haga wrap correctamente
+            val lp = FlexboxLayout.LayoutParams(
                 ViewGroup.LayoutParams.WRAP_CONTENT,
                 ViewGroup.LayoutParams.WRAP_CONTENT
             )
@@ -108,15 +108,13 @@ class GameActivity : AppCompatActivity() {
         chip.setOnLongClickListener { v ->
             draggedSyllable = syl
             draggedFromSlot = fromSlot
-            val item = ClipData.Item(syl)
+            val item     = ClipData.Item(syl)
             val dragData = ClipData(syl, arrayOf(ClipDescription.MIMETYPE_TEXT_PLAIN), item)
-            val shadow = View.DragShadowBuilder(v)
-            v.startDragAndDrop(dragData, shadow, v, 0)
+            v.startDragAndDrop(dragData, View.DragShadowBuilder(v), v, 0)
             v.visibility = View.INVISIBLE
             true
         }
 
-        // Touch drag (para celulares sin stylus)
         chip.setOnTouchListener(TouchDragHelper { syl2, slotFrom ->
             draggedSyllable = syl2
             draggedFromSlot = slotFrom
@@ -126,17 +124,17 @@ class GameActivity : AppCompatActivity() {
     }
 
     // ── SLOTS ─────────────────────────────────────────────────────────
+
     private fun buildSlots(animal: Animal) {
         binding.containerSlots.removeAllViews()
-        animal.silabas.forEachIndexed { i, _ ->
-            val slot = makeSlot(i)
-            binding.containerSlots.addView(slot)
+        animal.silabas.indices.forEach { i ->
+            binding.containerSlots.addView(makeSlot(i))
         }
     }
 
     private fun makeSlot(idx: Int): FrameLayout {
         val slot = FrameLayout(this).apply {
-            val lp = LinearLayout.LayoutParams(140, 120)
+            val lp = android.widget.LinearLayout.LayoutParams(140, 120)
             lp.setMargins(12, 0, 12, 0)
             layoutParams = lp
             background = ContextCompat.getDrawable(context, R.drawable.bg_slot)
@@ -149,7 +147,7 @@ class GameActivity : AppCompatActivity() {
                     view.background = ContextCompat.getDrawable(this, R.drawable.bg_slot_over)
                     true
                 }
-                DragEvent.ACTION_DRAG_EXITED  -> {
+                DragEvent.ACTION_DRAG_EXITED -> {
                     view.background = ContextCompat.getDrawable(this, R.drawable.bg_slot)
                     true
                 }
@@ -160,7 +158,6 @@ class GameActivity : AppCompatActivity() {
                     true
                 }
                 DragEvent.ACTION_DRAG_ENDED -> {
-                    // Si soltó fuera de slot, devolver visibilidad
                     val dragged = event.localState as? View
                     if (!event.result) dragged?.visibility = View.VISIBLE
                     true
@@ -174,20 +171,15 @@ class GameActivity : AppCompatActivity() {
     private fun handleDrop(syl: String, toSlot: Int) {
         val fromSlot = draggedFromSlot
 
-        // Si venía de un slot, liberar ese slot
         if (fromSlot != null) {
             slotContents[fromSlot] = null
             refreshSlotView(fromSlot)
         } else {
-            // Venía del pool: quitar del pool
             removeFromPool(syl)
         }
 
-        // Si el slot destino ya tenía algo, devolver al pool
         val displaced = slotContents[toSlot]
-        if (displaced != null) {
-            addToPool(displaced)
-        }
+        if (displaced != null) addToPool(displaced)
 
         slotContents[toSlot] = syl
         refreshSlotView(toSlot)
@@ -225,6 +217,7 @@ class GameActivity : AppCompatActivity() {
     }
 
     // ── VICTORIA ──────────────────────────────────────────────────────
+
     private fun checkWin() {
         val animal = animales[currentIndex]
         val correct = animal.silabas.indices.all { slotContents[it] == animal.silabas[it] }
@@ -251,9 +244,13 @@ class GameActivity : AppCompatActivity() {
                 maxSpeed = 30f,
                 damping = 0.9f,
                 spread = 360,
-                colors = listOf(0xFFE07B39.toInt(), 0xFF4A9E3F.toInt(),
-                                0xFFF5C842.toInt(), 0xFF3A8FD4.toInt(),
-                                0xFFE84393.toInt()),
+                colors = listOf(
+                    0xFFE07B39.toInt(),
+                    0xFF4A9E3F.toInt(),
+                    0xFFF5C842.toInt(),
+                    0xFF3A8FD4.toInt(),
+                    0xFFE84393.toInt()
+                ),
                 emitter = Emitter(duration = 2, TimeUnit.SECONDS).perSecond(60),
                 position = Position.Relative(0.5, 0.0)
             )

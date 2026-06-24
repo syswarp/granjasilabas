@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "com.granjasilabas.app-mergeDebugResources-29:/values-gl/values-gl.xml",
+            "outputFile": "com.granjasilabas.app-mergeDebugResources-30:/values-gl/values-gl.xml",
             "map": [
                 {
                     "source": "/Users/mac/.gradle/caches/transforms-3/41ff8fbbcc99668eccfa9a5be2d23b59/transformed/appcompat-1.6.1/res/values-gl/values-gl.xml",

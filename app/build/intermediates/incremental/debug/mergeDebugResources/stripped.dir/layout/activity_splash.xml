@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@color/granja_fondo"
+    android:padding="32dp">
+
+    <TextView
+        android:id="@+id/tv_capybara"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="🦫"
+        android:textSize="100sp"
+        android:layout_marginBottom="16dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="¡Granja de Sílabas!"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:textColor="@color/granja_marron_oscuro"
+        android:layout_marginBottom="8dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Aprendemos las sílabas jugando 🌾"
+        android:textSize="16sp"
+        android:textColor="@color/granja_marron"
+        android:gravity="center"
+        android:layout_marginBottom="48dp"/>
+
+    <Button
+        android:id="@+id/btn_jugar"
+        android:layout_width="220dp"
+        android:layout_height="64dp"
+        android:text="¡A JUGAR!"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        android:background="@drawable/bg_btn_jugar"
+        android:textColor="@color/white"/>
+
+</LinearLayout>

@@ -1,0 +1,35 @@
+R_DEF: Internal format may change without notice
+local
+anim bounce
+color granja_fondo
+color granja_fondo_pool
+color granja_marron
+color granja_marron_oscuro
+color granja_naranja
+color granja_naranja_oscuro
+color granja_slot_linea
+color granja_slot_over
+color granja_verde
+color white
+drawable bg_btn_jugar
+drawable bg_celebrate
+drawable bg_chip
+drawable bg_pool
+drawable bg_slot
+drawable bg_slot_over
+id btn_jugar
+id btn_siguiente
+id container_slots
+id konfetti_view
+id layout_celebrar
+id pool_silabas
+id tv_animal_emoji
+id tv_capybara
+id tv_progreso
+layout activity_game
+layout activity_splash
+raw place
+raw win
+string app_name
+style Theme.GranjaSilabas
+style Theme.GranjaSilabas.Splash

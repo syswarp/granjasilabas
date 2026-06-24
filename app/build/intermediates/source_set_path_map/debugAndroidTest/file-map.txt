@@ -1,0 +1,4 @@
+com.granjasilabas.app.test.app-androidTest-0 /Volumes/Datos/datos/granjasilabas/app/build/generated/res/resValues/androidTest/debug
+com.granjasilabas.app.test.app-mergeDebugAndroidTestResources-1 /Volumes/Datos/datos/granjasilabas/app/build/intermediates/incremental/debugAndroidTest/mergeDebugAndroidTestResources/merged.dir
+com.granjasilabas.app.test.app-mergeDebugAndroidTestResources-2 /Volumes/Datos/datos/granjasilabas/app/build/intermediates/incremental/debugAndroidTest/mergeDebugAndroidTestResources/stripped.dir
+com.granjasilabas.app.test.app-merged_res-3 /Volumes/Datos/datos/granjasilabas/app/build/intermediates/merged_res/debugAndroidTest

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="granja_fondo">#F5F0E0</color>
+    <color name="granja_fondo_pool">#ECDDBF</color>
+    <color name="granja_marron">#8A6A3A</color>
+    <color name="granja_marron_oscuro">#5A3E1B</color>
+    <color name="granja_naranja">#E07B39</color>
+    <color name="granja_naranja_oscuro">#C05E20</color>
+    <color name="granja_slot_linea">#8A6A3A</color>
+    <color name="granja_slot_over">#F0D9A0</color>
+    <color name="granja_verde">#4A9E3F</color>
+    <color name="white">#FFFFFF</color>
+    <string name="app_name">Granja de Sílabas</string>
+    <style name="Theme.GranjaSilabas" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <item name="colorPrimary">@color/granja_naranja</item>
+        <item name="colorPrimaryVariant">@color/granja_naranja_oscuro</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <item name="android:windowBackground">@color/granja_fondo</item>
+    </style>
+    <style name="Theme.GranjaSilabas.Splash" parent="Theme.GranjaSilabas">
+        <item name="android:windowFullscreen">true</item>
+    </style>
+</resources>

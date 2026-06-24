@@ -1,0 +1,46 @@
+[
+    {
+        "merged": "com.granjasilabas.app-merged_res-31:/drawable_bg_pool.xml.flat",
+        "source": "com.granjasilabas.app-main-33:/drawable/bg_pool.xml"
+    },
+    {
+        "merged": "com.granjasilabas.app-merged_res-31:/drawable_bg_celebrate.xml.flat",
+        "source": "com.granjasilabas.app-main-33:/drawable/bg_celebrate.xml"
+    },
+    {
+        "merged": "com.granjasilabas.app-merged_res-31:/drawable_bg_chip.xml.flat",
+        "source": "com.granjasilabas.app-main-33:/drawable/bg_chip.xml"
+    },
+    {
+        "merged": "com.granjasilabas.app-merged_res-31:/drawable_bg_slot.xml.flat",
+        "source": "com.granjasilabas.app-main-33:/drawable/bg_slot.xml"
+    },
+    {
+        "merged": "com.granjasilabas.app-merged_res-31:/layout_activity_splash.xml.flat",
+        "source": "com.granjasilabas.app-main-33:/layout/activity_splash.xml"
+    },
+    {
+        "merged": "com.granjasilabas.app-merged_res-31:/drawable_bg_slot_over.xml.flat",
+        "source": "com.granjasilabas.app-main-33:/drawable/bg_slot_over.xml"
+    },
+    {
+        "merged": "com.granjasilabas.app-merged_res-31:/drawable_bg_btn_jugar.xml.flat",
+        "source": "com.granjasilabas.app-main-33:/drawable/bg_btn_jugar.xml"
+    },
+    {
+        "merged": "com.granjasilabas.app-merged_res-31:/raw_place.wav.flat",
+        "source": "com.granjasilabas.app-main-33:/raw/place.wav"
+    },
+    {
+        "merged": "com.granjasilabas.app-merged_res-31:/layout_activity_game.xml.flat",
+        "source": "com.granjasilabas.app-main-33:/layout/activity_game.xml"
+    },
+    {
+        "merged": "com.granjasilabas.app-merged_res-31:/anim_bounce.xml.flat",
+        "source": "com.granjasilabas.app-main-33:/anim/bounce.xml"
+    },
+    {
+        "merged": "com.granjasilabas.app-merged_res-31:/raw_win.wav.flat",
+        "source": "com.granjasilabas.app-main-33:/raw/win.wav"
+    }
+]

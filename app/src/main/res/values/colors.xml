@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="white">#FFFFFF</color>
+    <color name="granja_fondo">#F5F0E0</color>
+    <color name="granja_fondo_pool">#ECDDBF</color>
+    <color name="granja_marron_oscuro">#5A3E1B</color>
+    <color name="granja_marron">#8A6A3A</color>
+    <color name="granja_naranja">#E07B39</color>
+    <color name="granja_naranja_oscuro">#C05E20</color>
+    <color name="granja_verde">#4A9E3F</color>
+    <color name="granja_slot_linea">#8A6A3A</color>
+    <color name="granja_slot_over">#F0D9A0</color>
+</resources>

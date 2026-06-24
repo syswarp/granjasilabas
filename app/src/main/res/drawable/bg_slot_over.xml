@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape android:shape="rectangle">
+            <solid android:color="@color/granja_slot_over"/>
+            <corners android:topLeftRadius="8dp" android:topRightRadius="8dp"/>
+        </shape>
+    </item>
+    <item android:top="116dp">
+        <shape android:shape="rectangle">
+            <solid android:color="@color/granja_naranja"/>
+        </shape>
+    </item>
+</layer-list>

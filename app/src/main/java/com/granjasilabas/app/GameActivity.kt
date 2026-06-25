@@ -48,8 +48,22 @@ class GameActivity : AppCompatActivity() {
 
         binding.btnSiguiente.setOnClickListener {
             binding.layoutCelebrar.visibility = View.GONE
-            currentIndex = (currentIndex + 1) % animales.size
+            currentIndex++
+            if (currentIndex >= animales.size) {
+                showFinalCelebration()
+            } else {
+                loadAnimal(currentIndex)
+            }
+        }
+
+        binding.btnReiniciar.setOnClickListener {
+            binding.layoutFinal.visibility = View.GONE
+            currentIndex = 0
             loadAnimal(currentIndex)
+        }
+
+        binding.btnSalir.setOnClickListener {
+            finish()
         }
     }
 
@@ -69,14 +83,16 @@ class GameActivity : AppCompatActivity() {
         animal.silabas.forEachIndexed { i, _ -> slotContents[i] = null }
 
         binding.tvAnimalEmoji.text = animal.emoji
-        binding.tvProgreso.text    = "${idx + 1} de ${animales.size}"
+        // FIX 2: mostrar progreso
+        binding.tvProgreso.text = "${idx + 1} de ${animales.size}"
         binding.layoutCelebrar.visibility = View.GONE
+        binding.layoutFinal.visibility = View.GONE
 
         buildPool(animal)
         buildSlots(animal)
     }
 
-    // ── POOL de sílabas ──────────────────────────────────────────────
+    // ── POOL ──────────────────────────────────────────────────────────
 
     private fun buildPool(animal: Animal) {
         binding.poolSilabas.removeAllViews()
@@ -88,15 +104,15 @@ class GameActivity : AppCompatActivity() {
     private fun makeChip(syl: String, fromSlot: Int?): TextView {
         val chip = TextView(this).apply {
             text = syl
-            textSize = 26f
+            textSize = 24f
             setTextColor(Color.WHITE)
             typeface = android.graphics.Typeface.DEFAULT_BOLD
             gravity = Gravity.CENTER
-            setPadding(40, 20, 40, 20)
+            // FIX 3: más padding para que no se corte el texto
+            setPadding(32, 28, 32, 28)
             background = ContextCompat.getDrawable(context, R.drawable.bg_chip)
             tag = syl
 
-            // FlexboxLayout.LayoutParams para que el pool haga wrap correctamente
             val lp = FlexboxLayout.LayoutParams(
                 ViewGroup.LayoutParams.WRAP_CONTENT,
                 ViewGroup.LayoutParams.WRAP_CONTENT
@@ -134,7 +150,8 @@ class GameActivity : AppCompatActivity() {
 
     private fun makeSlot(idx: Int): FrameLayout {
         val slot = FrameLayout(this).apply {
-            val lp = android.widget.LinearLayout.LayoutParams(140, 120)
+            // FIX 3: slots más anchos para que entre el texto completo
+            val lp = android.widget.LinearLayout.LayoutParams(220, 150)
             lp.setMargins(12, 0, 12, 0)
             layoutParams = lp
             background = ContextCompat.getDrawable(context, R.drawable.bg_slot)
@@ -170,7 +187,35 @@ class GameActivity : AppCompatActivity() {
 
     private fun handleDrop(syl: String, toSlot: Int) {
         val fromSlot = draggedFromSlot
+        val animal   = animales[currentIndex]
 
+        // FIX 1: verificar si la sílaba es correcta para ESTE slot
+        val isCorrect = animal.silabas[toSlot] == syl
+
+        if (!isCorrect) {
+            // Rebotar: devolver al lugar de origen sin hacer nada
+            if (fromSlot != null) {
+                // Venía de un slot: restaurar visibilidad del chip en ese slot
+                refreshSlotView(fromSlot)
+            } else {
+                // Venía del pool: hacer visible el chip del pool de nuevo
+                val pool = binding.poolSilabas
+                for (i in 0 until pool.childCount) {
+                    val v = pool.getChildAt(i)
+                    if (v.tag == syl && v.visibility == View.INVISIBLE) {
+                        // Animación de rebote antes de volver
+                        v.visibility = View.VISIBLE
+                        animateRebote(v)
+                        break
+                    }
+                }
+            }
+            draggedSyllable = null
+            draggedFromSlot = null
+            return
+        }
+
+        // Es correcta: proceder normalmente
         if (fromSlot != null) {
             slotContents[fromSlot] = null
             refreshSlotView(fromSlot)
@@ -185,6 +230,12 @@ class GameActivity : AppCompatActivity() {
         refreshSlotView(toSlot)
         soundPool.play(soundPlace, 0.6f, 0.6f, 1, 0, 1f)
         checkWin()
+    }
+
+    private fun animateRebote(v: View) {
+        val tx = ObjectAnimator.ofFloat(v, "translationX", 0f, -18f, 18f, -12f, 12f, 0f)
+        tx.duration = 350
+        tx.start()
     }
 
     private fun refreshSlotView(idx: Int) {
@@ -219,7 +270,7 @@ class GameActivity : AppCompatActivity() {
     // ── VICTORIA ──────────────────────────────────────────────────────
 
     private fun checkWin() {
-        val animal = animales[currentIndex]
+        val animal  = animales[currentIndex]
         val correct = animal.silabas.indices.all { slotContents[it] == animal.silabas[it] }
         if (correct) {
             Handler(Looper.getMainLooper()).postDelayed({
@@ -237,6 +288,16 @@ class GameActivity : AppCompatActivity() {
         AnimatorSet().apply { playTogether(scaleX, scaleY); duration = 400; start() }
     }
 
+    // FIX 4: pantalla final al terminar la serie
+    private fun showFinalCelebration() {
+        soundPool.play(soundWin, 1f, 1f, 1, 0, 1f)
+        launchConfetti()
+        binding.layoutFinal.visibility = View.VISIBLE
+        val scaleX = ObjectAnimator.ofFloat(binding.tvCapybaraFinal, "scaleX", 0f, 1.2f, 1f)
+        val scaleY = ObjectAnimator.ofFloat(binding.tvCapybaraFinal, "scaleY", 0f, 1.2f, 1f)
+        AnimatorSet().apply { playTogether(scaleX, scaleY); duration = 400; start() }
+    }
+
     private fun launchConfetti() {
         binding.konfettiView.start(
             Party(
@@ -245,13 +306,11 @@ class GameActivity : AppCompatActivity() {
                 damping = 0.9f,
                 spread = 360,
                 colors = listOf(
-                    0xFFE07B39.toInt(),
-                    0xFF4A9E3F.toInt(),
-                    0xFFF5C842.toInt(),
-                    0xFF3A8FD4.toInt(),
+                    0xFFE07B39.toInt(), 0xFF4A9E3F.toInt(),
+                    0xFFF5C842.toInt(), 0xFF3A8FD4.toInt(),
                     0xFFE84393.toInt()
                 ),
-                emitter = Emitter(duration = 2, TimeUnit.SECONDS).perSecond(60),
+                emitter = Emitter(duration = 3, TimeUnit.SECONDS).perSecond(80),
                 position = Position.Relative(0.5, 0.0)
             )
         )

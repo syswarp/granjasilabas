@@ -21,7 +21,13 @@ import nl.dionsegijn.konfetti.xml.KonfettiView;
 
 public final class ActivityGameBinding implements ViewBinding {
   @NonNull
-  private final LinearLayout rootView;
+  private final FrameLayout rootView;
+
+  @NonNull
+  public final Button btnReiniciar;
+
+  @NonNull
+  public final Button btnSalir;
 
   @NonNull
   public final Button btnSiguiente;
@@ -36,6 +42,9 @@ public final class ActivityGameBinding implements ViewBinding {
   public final FrameLayout layoutCelebrar;
 
   @NonNull
+  public final FrameLayout layoutFinal;
+
+  @NonNull
   public final FlexboxLayout poolSilabas;
 
   @NonNull
@@ -45,26 +54,35 @@ public final class ActivityGameBinding implements ViewBinding {
   public final TextView tvCapybara;
 
   @NonNull
+  public final TextView tvCapybaraFinal;
+
+  @NonNull
   public final TextView tvProgreso;
 
-  private ActivityGameBinding(@NonNull LinearLayout rootView, @NonNull Button btnSiguiente,
-      @NonNull LinearLayout containerSlots, @NonNull KonfettiView konfettiView,
-      @NonNull FrameLayout layoutCelebrar, @NonNull FlexboxLayout poolSilabas,
-      @NonNull TextView tvAnimalEmoji, @NonNull TextView tvCapybara, @NonNull TextView tvProgreso) {
+  private ActivityGameBinding(@NonNull FrameLayout rootView, @NonNull Button btnReiniciar,
+      @NonNull Button btnSalir, @NonNull Button btnSiguiente, @NonNull LinearLayout containerSlots,
+      @NonNull KonfettiView konfettiView, @NonNull FrameLayout layoutCelebrar,
+      @NonNull FrameLayout layoutFinal, @NonNull FlexboxLayout poolSilabas,
+      @NonNull TextView tvAnimalEmoji, @NonNull TextView tvCapybara,
+      @NonNull TextView tvCapybaraFinal, @NonNull TextView tvProgreso) {
     this.rootView = rootView;
+    this.btnReiniciar = btnReiniciar;
+    this.btnSalir = btnSalir;
     this.btnSiguiente = btnSiguiente;
     this.containerSlots = containerSlots;
     this.konfettiView = konfettiView;
     this.layoutCelebrar = layoutCelebrar;
+    this.layoutFinal = layoutFinal;
     this.poolSilabas = poolSilabas;
     this.tvAnimalEmoji = tvAnimalEmoji;
     this.tvCapybara = tvCapybara;
+    this.tvCapybaraFinal = tvCapybaraFinal;
     this.tvProgreso = tvProgreso;
   }
 
   @Override
   @NonNull
-  public LinearLayout getRoot() {
+  public FrameLayout getRoot() {
     return rootView;
   }
 
@@ -89,6 +107,18 @@ public final class ActivityGameBinding implements ViewBinding {
     // This is done to optimize the compiled bytecode for size and performance.
     int id;
     missingId: {
+      id = R.id.btn_reiniciar;
+      Button btnReiniciar = ViewBindings.findChildViewById(rootView, id);
+      if (btnReiniciar == null) {
+        break missingId;
+      }
+
+      id = R.id.btn_salir;
+      Button btnSalir = ViewBindings.findChildViewById(rootView, id);
+      if (btnSalir == null) {
+        break missingId;
+      }
+
       id = R.id.btn_siguiente;
       Button btnSiguiente = ViewBindings.findChildViewById(rootView, id);
       if (btnSiguiente == null) {
@@ -113,6 +143,12 @@ public final class ActivityGameBinding implements ViewBinding {
         break missingId;
       }
 
+      id = R.id.layout_final;
+      FrameLayout layoutFinal = ViewBindings.findChildViewById(rootView, id);
+      if (layoutFinal == null) {
+        break missingId;
+      }
+
       id = R.id.pool_silabas;
       FlexboxLayout poolSilabas = ViewBindings.findChildViewById(rootView, id);
       if (poolSilabas == null) {
@@ -131,14 +167,21 @@ public final class ActivityGameBinding implements ViewBinding {
         break missingId;
       }
 
+      id = R.id.tv_capybara_final;
+      TextView tvCapybaraFinal = ViewBindings.findChildViewById(rootView, id);
+      if (tvCapybaraFinal == null) {
+        break missingId;
+      }
+
       id = R.id.tv_progreso;
       TextView tvProgreso = ViewBindings.findChildViewById(rootView, id);
       if (tvProgreso == null) {
         break missingId;
       }
 
-      return new ActivityGameBinding((LinearLayout) rootView, btnSiguiente, containerSlots,
-          konfettiView, layoutCelebrar, poolSilabas, tvAnimalEmoji, tvCapybara, tvProgreso);
+      return new ActivityGameBinding((FrameLayout) rootView, btnReiniciar, btnSalir, btnSiguiente,
+          containerSlots, konfettiView, layoutCelebrar, layoutFinal, poolSilabas, tvAnimalEmoji,
+          tvCapybara, tvCapybaraFinal, tvProgreso);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

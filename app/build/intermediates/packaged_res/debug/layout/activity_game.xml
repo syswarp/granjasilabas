@@ -1,94 +1,92 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical"
-    android:background="@color/granja_fondo"
-    android:gravity="center_horizontal"
-    android:padding="16dp">
+    android:background="@color/granja_fondo">
 
-    <!-- Progreso -->
-    <TextView
-        android:id="@+id/tv_progreso"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="1 de 15"
-        android:textSize="14sp"
-        android:textColor="@color/granja_marron"
-        android:gravity="end"
-        android:layout_marginBottom="4dp"/>
-
-    <!-- Pregunta -->
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="¿Cómo se llama este animal?"
-        android:textSize="20sp"
-        android:textStyle="bold"
-        android:textColor="@color/granja_marron_oscuro"
-        android:gravity="center"
-        android:layout_marginBottom="8dp"/>
-
-    <!-- Emoji del animal -->
-    <TextView
-        android:id="@+id/tv_animal_emoji"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="🐄"
-        android:textSize="100sp"
-        android:layout_marginBottom="8dp"/>
-
-    <!-- Hint -->
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="¡Arrastrá las sílabas a las líneas!"
-        android:textSize="14sp"
-        android:textColor="@color/granja_marron"
-        android:fontFamily="monospace"
-        android:layout_marginBottom="16dp"/>
-
-    <!-- Pool de sílabas disponibles -->
-
-    <com.google.android.flexbox.FlexboxLayout
-        android:id="@+id/pool_silabas"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:minHeight="100dp"
-        app:flexWrap="wrap"
-        app:justifyContent="center"
-        android:background="@drawable/bg_pool"
-        android:padding="16dp"
-        android:layout_marginBottom="24dp"/>
-
-    <!-- Hint slots -->
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Poné las sílabas aquí 👇"
-        android:textSize="14sp"
-        android:textColor="@color/granja_marron"
-        android:layout_marginBottom="12dp"/>
-
-    <!-- Slots para soltar -->
+    <!-- Contenido principal del juego -->
     <LinearLayout
-        android:id="@+id/container_slots"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:orientation="horizontal"
-        android:gravity="center"
-        android:layout_marginBottom="32dp"/>
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center_horizontal"
+        android:padding="16dp">
 
-    <!-- Konfetti overlay -->
+        <TextView
+            android:id="@+id/tv_progreso"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="1 de 15"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:textColor="@color/granja_marron_oscuro"
+            android:gravity="center"
+            android:layout_marginBottom="4dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="¿Cómo se llama este animal?"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColor="@color/granja_marron_oscuro"
+            android:gravity="center"
+            android:layout_marginBottom="8dp"/>
+
+        <TextView
+            android:id="@+id/tv_animal_emoji"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="🐄"
+            android:textSize="96sp"
+            android:layout_marginBottom="4dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="¡Arrastrá las sílabas a las líneas!"
+            android:textSize="14sp"
+            android:textColor="@color/granja_marron"
+            android:layout_marginBottom="12dp"/>
+
+        <com.google.android.flexbox.FlexboxLayout
+            android:id="@+id/pool_silabas"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:minHeight="90dp"
+            app:flexWrap="wrap"
+            app:justifyContent="center"
+            android:background="@drawable/bg_pool"
+            android:padding="14dp"
+            android:layout_marginBottom="20dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Poné las sílabas aquí 👇"
+            android:textSize="14sp"
+            android:textColor="@color/granja_marron"
+            android:layout_marginBottom="10dp"/>
+
+        <LinearLayout
+            android:id="@+id/container_slots"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:layout_marginBottom="20dp"/>
+
+    </LinearLayout>
+
+    <!-- Konfetti -->
     <nl.dionsegijn.konfetti.xml.KonfettiView
         android:id="@+id/konfetti_view"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:layout_gravity="center"
         android:elevation="10dp"/>
 
-    <!-- Panel de celebración (overlay) -->
+    <!-- Panel celebración por animal -->
     <FrameLayout
         android:id="@+id/layout_celebrar"
         android:layout_width="match_parent"
@@ -135,13 +133,97 @@
                 android:id="@+id/btn_siguiente"
                 android:layout_width="wrap_content"
                 android:layout_height="56dp"
-                android:text="Seguir jugando ➜"
+                android:text="Siguiente animal ➜"
                 android:textSize="16sp"
                 android:textStyle="bold"
                 android:textColor="@color/white"
-                android:background="@drawable/bg_btn_jugar"/>
+                android:background="@drawable/bg_btn_jugar"
+                android:paddingStart="24dp"
+                android:paddingEnd="24dp"/>
 
         </LinearLayout>
     </FrameLayout>
 
-</LinearLayout>
+    <!-- Panel final al terminar la serie -->
+    <FrameLayout
+        android:id="@+id/layout_final"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#AA000000"
+        android:visibility="gone"
+        android:elevation="30dp">
+
+        <LinearLayout
+            android:layout_width="320dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:background="@drawable/bg_celebrate"
+            android:padding="32dp">
+
+            <TextView
+                android:id="@+id/tv_capybara_final"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="🦫🎉"
+                android:textSize="72sp"
+                android:layout_marginBottom="8dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="¡MUY BIEN!"
+                android:textSize="36sp"
+                android:textStyle="bold"
+                android:textColor="@color/granja_naranja"
+                android:layout_marginBottom="8dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="¡Terminaste toda la serie!"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:textColor="@color/granja_marron_oscuro"
+                android:gravity="center"
+                android:layout_marginBottom="4dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="¡Sos una estrella! ⭐"
+                android:textSize="15sp"
+                android:textColor="@color/granja_marron"
+                android:gravity="center"
+                android:layout_marginBottom="28dp"/>
+
+            <Button
+                android:id="@+id/btn_reiniciar"
+                android:layout_width="wrap_content"
+                android:layout_height="56dp"
+                android:text="¡Jugar de nuevo! 🔄"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                android:textColor="@color/white"
+                android:background="@drawable/bg_btn_jugar"
+                android:paddingStart="24dp"
+                android:paddingEnd="24dp"
+                android:layout_marginBottom="12dp"/>
+
+            <Button
+                android:id="@+id/btn_salir"
+                android:layout_width="wrap_content"
+                android:layout_height="56dp"
+                android:text="Terminar 👋"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                android:textColor="@color/white"
+                android:background="@drawable/bg_btn_salir"
+                android:paddingStart="24dp"
+                android:paddingEnd="24dp"/>
+
+        </LinearLayout>
+    </FrameLayout>
+
+</FrameLayout>

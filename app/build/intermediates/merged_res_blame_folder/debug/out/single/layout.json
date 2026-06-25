@@ -1,10 +1,18 @@
 [
     {
-        "merged": "com.granjasilabas.app-mergeDebugResources-31:/layout/activity_splash.xml",
-        "source": "com.granjasilabas.app-main-34:/layout/activity_splash.xml"
+        "merged": "com.granjasilabas.app-mergeDebugResources-3:/layout/activity_game.xml",
+        "source": "com.granjasilabas.app-main-6:/layout/activity_game.xml"
     },
     {
-        "merged": "com.granjasilabas.app-mergeDebugResources-31:/layout/activity_game.xml",
-        "source": "com.granjasilabas.app-main-34:/layout/activity_game.xml"
+        "merged": "/home/riddick/.gradle/daemon/8.1.1/com.granjasilabas.app-mergeDebugResources-3:/layout/activity_game.xml",
+        "source": "/home/riddick/.gradle/daemon/8.1.1/com.granjasilabas.app-main-6:/layout/activity_game.xml"
+    },
+    {
+        "merged": "/home/riddick/.gradle/daemon/8.1.1/com.granjasilabas.app-mergeDebugResources-3:/layout/bg_btn_salir.xml",
+        "source": "/home/riddick/.gradle/daemon/8.1.1/com.granjasilabas.app-main-6:/layout/bg_btn_salir.xml"
+    },
+    {
+        "merged": "/home/riddick/.gradle/daemon/8.1.1/com.granjasilabas.app-mergeDebugResources-3:/layout/activity_splash.xml",
+        "source": "/home/riddick/.gradle/daemon/8.1.1/com.granjasilabas.app-main-6:/layout/activity_splash.xml"
     }
 ]

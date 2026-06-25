@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "com.granjasilabas.app-mergeDebugResources-30:/values-v23/values-v23.xml",
+            "outputFile": "com.granjasilabas.app-mergeDebugResources-2:/values-v23/values-v23.xml",
             "map": [
                 {
-                    "source": "/Users/mac/.gradle/caches/transforms-3/6e76fdb5c215e7c85e60b13ecf877893/transformed/cardview-1.0.0/res/values-v23/values-v23.xml",
+                    "source": "/home/riddick/.gradle/caches/transforms-3/6e76fdb5c215e7c85e60b13ecf877893/transformed/cardview-1.0.0/res/values-v23/values-v23.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
@@ -23,7 +23,7 @@
                     }
                 },
                 {
-                    "source": "/Users/mac/.gradle/caches/transforms-3/e22dc4ff9c31d45441ab59aef11ec361/transformed/material-1.11.0/res/values-v23/values-v23.xml",
+                    "source": "/home/riddick/.gradle/caches/transforms-3/e22dc4ff9c31d45441ab59aef11ec361/transformed/material-1.11.0/res/values-v23/values-v23.xml",
                     "from": {
                         "startLines": "2,5,9,13,16,19,22,25,28,32",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4",
@@ -42,7 +42,7 @@
                     }
                 },
                 {
-                    "source": "/Users/mac/.gradle/caches/transforms-3/41ff8fbbcc99668eccfa9a5be2d23b59/transformed/appcompat-1.6.1/res/values-v23/values-v23.xml",
+                    "source": "/home/riddick/.gradle/caches/transforms-3/41ff8fbbcc99668eccfa9a5be2d23b59/transformed/appcompat-1.6.1/res/values-v23/values-v23.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,20,34,35,36,39,43,44,45,46",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4",
